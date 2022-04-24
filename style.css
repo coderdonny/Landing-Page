@@ -26,7 +26,7 @@ header h1 {
 	font-size: 48px;
 	font-weight: bolder;
 	color: #f9faf8;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Square Peg', cursive;
 	line-height: 40px;
 	margin-bottom: 16px;
 }
@@ -35,6 +35,7 @@ header p {
 	margin: 0px;
 	font-size: 18px;
 	color: #f9faf8;
+	font-weight: lighter;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-bottom: 10px;
 }
@@ -57,7 +58,12 @@ ul {
 
 ul a {
 	text-decoration: none;
-	color: white;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul a:hover {
+	color: rgb(205, 205, 205);
 }
 
 .contentContainer {
@@ -81,7 +87,7 @@ ul a {
 }
 
 .studio:hover {
-	box-shadow: 0px 0px 50px 7px #000000;
+	box-shadow: 0px 0px 50px 3px #000000;
 }
 
 header button {
@@ -96,11 +102,11 @@ header button {
 	font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
 		'Arial', sans-serif;
 	min-width: 28px;
-	padding-left: 16px;
-	padding-right: 16px;
+	padding-left: 24px;
+	padding-right: 24px;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	border-radius: 30px;
+	border-radius: 10px;
 	background: #0071e3;
 	color: #fff;
 	border-style: none;
