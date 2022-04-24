@@ -1,6 +1,8 @@
 body {
 	margin: 0px;
 	padding: 0px;
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -115,4 +117,34 @@ header button {
 
 header button:hover {
 	background: #0c5095;
+}
+
+main {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 16px;
+}
+
+main h1 {
+	font-weight: bolder;
+	color: #000000;
+	font-family: 'Square Peg', cursive;
+	font-size: 48px;
+}
+
+.infoContainer {
+	width: 900px;
+}
+
+.images {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.images img {
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
 }
