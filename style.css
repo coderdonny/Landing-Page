@@ -92,7 +92,7 @@ ul a:hover {
 	box-shadow: 0px 0px 50px 3px #000000;
 }
 
-header button {
+button {
 	cursor: pointer;
 	display: inline-block;
 	text-align: center;
@@ -115,7 +115,7 @@ header button {
 	transition-duration: 0.2s;
 }
 
-header button:hover {
+button:hover {
 	background: #0c5095;
 	color: white;
 }
@@ -164,7 +164,6 @@ main h1 {
 .quote {
 	display: flex;
 	justify-content: center;
-	padding: 16px;
 	background-color: #1f2937;
 }
 
@@ -184,4 +183,33 @@ figcaption {
 
 figcaption {
 	margin-left: auto;
+}
+
+.signUp {
+	display: flex;
+	justify-content: center;
+	background-color: #ffffff;
+	padding: 100px 0px;
+}
+
+.signUp.container {
+	background: #0071e3;
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+	padding: 70px 80px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 10px;
+}
+
+.signUp h3,
+p {
+	margin: 0px;
+}
+
+.signUp button {
+	background-color: white;
+	color: black;
+	width: min-content;
 }
